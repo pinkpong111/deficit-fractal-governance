@@ -763,6 +763,14 @@ This repository presents a theoretical framework. Formal mathematical specificat
 
 ---
 
+## PDF Version
+
+A formatted whitepaper version is available here:
+
+[Download PDF](deficit-driven-fractal-governance.pdf)
+
+---
+
 ## License
 
 This project is licensed under the MIT License.
