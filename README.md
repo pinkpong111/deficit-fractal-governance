@@ -235,20 +235,56 @@ Full delivery to an immature layer forces receiver-controlled compression. The r
 
 **The Buffer Layer**
 
-Noise is not discarded. It is preserved in a buffer layer as pre-vector material.
+Noise is not discarded. It serves three functions simultaneously.
 
 ```
-Buffer layer
-  Holds noise (directionless potential)
-  Reads global solution outline
-  Identifies which positions are unfilled
-  Grows noise toward the characteristics needed
-  Releases calibrated vectors into the vector field
-  → Pairs form at attractor positions
-  → Vector Storm prevented before it begins
+Buffer layer — three functions
+
+Function 1  Immune training ground
+            Practices metadata conversion
+            Builds degradation capacity over time
+
+Function 2  Friction absorber
+            Positioned between opposing vector pairs
+            by the upper layer's full system map
+            → Noise has no directionality
+            → Absorbs collision energy without reinforcing either side
+            → Buffer thickness = friction level indicator
+            → Thinning buffer = early warning signal
+
+Function 3  Latent vector cultivation space
+            Upper layer identifies noise with structural potential
+            → Matches noise pattern to empty system position
+            → Isolates latent vector in buffer
+            → Injects calibrated seed
+            → Directionality forms gradually
+            → New position established
+            → System search space expands (growth, not recovery)
 ```
 
-The buffer layer transforms the governance problem from reactive (containing storms) to generative (designing the field before storms are possible).
+> **Buffer layer thickness is the observable proxy for upper layer resolution.**
+> **Thicker buffer = upper layer map is accurate.**
+> **Thinning buffer = upper layer resolution degrading.**
+
+**Vector Trimming**
+
+Excessive vectors invade the buffer layer, thinning it and increasing friction between opposing pairs.
+
+```
+Trimming excessive vectors = buffer layer maintenance
+  Not suppression
+  Not control
+
+Short-term exploration limited
+  → Buffer layer preserved
+  → Long-term exploration expanded
+
+Trim precision = upper layer resolution
+  B-grade upper: cannot identify excessive extent → over- or under-trims
+  S-grade upper: precise identification → minimum trim, maximum preservation
+```
+
+The buffer layer transforms the governance problem from reactive (containing storms) to generative (designing the field before storms are possible) to evolutionary (cultivating new vectors from noise).
 
 **The Degradation-Upscaling Cycle**
 
@@ -345,8 +381,13 @@ Escalation      Routing unresolvable conflicts to higher layers
 The lowest fractal layer always retains a residual degradation state. Zero-storm is not a valid design target.
 
 > The goal of governance is not zero instability.
-> It is maintaining Growth Benefit > Instability Cost
-> while accepting that a residual floor always remains.
+> It is not control or suppression.
+> It is buffer layer maintenance:
+> keeping opposing vectors separated,
+> trimming excessive vectors before they invade,
+> and cultivating latent vectors into new positions.
+> Growth Benefit > Instability Cost,
+> with a residual floor that always remains.
 
 $$\frac{dS}{dt} = \alpha n^2 - \beta C(t)$$
 
@@ -818,11 +859,6 @@ are recorded here as a timestamped claim, pending full formalization.
 
 ---
 
-*This framework draws on cross-domain synthesis across ecology, complex systems science,*
-*non-equilibrium thermodynamics, behavioral economics, game theory, information theory,*
-*constitutional law, and dynamical systems theory.*
-*It does not claim formal equivalence with any of these fields.*
-*It claims structural correspondence — and proposes that correspondence as a research program.*
 *This framework draws on cross-domain synthesis across ecology, complex systems science,*
 *non-equilibrium thermodynamics, behavioral economics, game theory, information theory,*
 *constitutional law, and dynamical systems theory.*
