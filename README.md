@@ -785,23 +785,6 @@ Problems are layered by dependency. Layer 1 must be solved for the theory to be 
 
 ---
 
-## Document Index
-
-| Document | Status | Language |
-|----------|--------|----------|
-| DFG_MASTER_README.md | This document | English |
-| VECTOR_STORM_EN_README.md | Complete | English |
-| VECTOR_STORM_README.md | Complete | Korean |
-| NETWORK_ARCHITECTURE_README.md | Complete | English |
-| GOVERNANCE_RULES_README.md | Complete | English |
-| GOVERNANCE_RULES_KO_README.md | Complete | Korean |
-| RESOLUTION_INFO_THEORY_README.md | Draft | English |
-| EMOTION_MODULE_README.md | Draft — not yet public | English |
-| RECOVERY_THEORY_README.md | Not yet written | — |
-| PREDICTION_MODEL_README.md | Not yet written | — |
-
----
-
 ## Timestamp
 
 This document was created on February 19, 2026.
