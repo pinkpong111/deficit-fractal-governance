@@ -135,6 +135,14 @@ When these conditions are met, the system enters **Rest Mode** — the designed 
 This is not a prediction that AI systems will automatically stabilize.
 It is a design theory for how to make stabilization structurally possible.
 
+**The system ceiling constraint**
+
+> System performance is bounded by the resolution of the upper layer.
+> An S-grade lower layer under a B-grade upper layer cannot perform at S-grade.
+> The upper layer must always be capable enough to read what the lower layer produces.
+
+This constraint governs seed handover, contamination detection, and self-correction capacity. It is the single most important design requirement in the framework.
+
 ---
 
 ## Theoretical Architecture
@@ -164,7 +172,13 @@ Deficit-Fractal Governance (parent framework)
   │     Defines the structural role of irreducible randomness
   │     in agent diversity and ecosystem stability
   │
-  └── Recovery and Prediction        [not yet started]
+  ├── Recovery Theory                  [complete]
+  │     Defines contamination, immunity, and restoration
+  │     Upper layer resolution as system ceiling
+  │     Detection inherent in fractal layer structure
+  │     Authority separation: mark / judge / execute
+  │
+  └── Prediction Model                 [not yet started]
 ```
 
 ---
@@ -582,7 +596,9 @@ Rest Mode is not a permanent destination. If external conditions change sufficie
 | Mature | Observer | AI |
 | Rest | Absent | AI |
 
-> **AI-designed seeds remain bounded by invariant global principles defined at the highest layer.**
+> **Handover condition: lower layer maximum resolution ≤ upper layer resolution.**
+> Handover before this condition is met causes system collapse.
+> AI-designed seeds remain bounded by invariant global principles defined at the highest layer.
 > Handover transfers design authority, not foundational constraint.
 
 ### The Optimal Point
@@ -674,11 +690,13 @@ Problems are layered by dependency. Layer 1 must be solved for the theory to be 
 ### Layer 1 — Core: Theory Cannot Be Operationalized Without These
 
 ```
-1. Resolution measurement
-   How is a layer's current resolution quantified?
-   What unit captures vector space capacity?
-   Without this: resolution gap cannot be measured,
-   degradation cannot be calibrated, seeds cannot be designed.
+1. Resolution measurement  ✓ RESOLVED (operational proxy)
+   Resolution-proxy = 1 - (Type1 loss + Type2 loss) / total input
+   Type1 = False Restoration (healthy mistaken for contaminated)
+   Type2 = Missed Contamination (contaminated mistaken for healthy)
+   Resolution gap = upper proxy - lower proxy
+   Measurable, comparable, trackable over time
+   Full structural resolution (R(c) curve) remains a Layer 2 problem.
 
 2. Pair validity criterion formalization
    Search range increase is proposed as the criterion.
@@ -800,6 +818,11 @@ are recorded here as a timestamped claim, pending full formalization.
 
 ---
 
+*This framework draws on cross-domain synthesis across ecology, complex systems science,*
+*non-equilibrium thermodynamics, behavioral economics, game theory, information theory,*
+*constitutional law, and dynamical systems theory.*
+*It does not claim formal equivalence with any of these fields.*
+*It claims structural correspondence — and proposes that correspondence as a research program.*
 *This framework draws on cross-domain synthesis across ecology, complex systems science,*
 *non-equilibrium thermodynamics, behavioral economics, game theory, information theory,*
 *constitutional law, and dynamical systems theory.*
