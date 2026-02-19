@@ -1,777 +1,824 @@
-# Deficit-Driven Fractal Governance for Scalable AI Systems
-
-> A theoretical framework for scalable AI alignment through fractalized rule-agent decision complexes.
-
----
-
-## Abstract
-
-This repository proposes a scalable governance framework based on fractalized rule-agent decision complexes.
-
-Current AI architectures face a structural contradiction: as scale increases, stability decreases. As complexity grows, alignment cost grows with it. Most approaches attempt to solve this through central control or fixed rule hierarchies — this creates bottlenecks, and scaling becomes fragile.
-
-A different principle is required.
-
-**Fractal governance** is not a metaphor. It is a structural replication of decision logic across scales. Stability is preserved because the same rule operates at every level. Expansion does not introduce new instability — it extends the same pattern. Fractal structure is both an expansion mechanism and a stabilization mechanism.
+# Deficit-Fractal Governance (DFG)
+### A Unified Theoretical Framework for Multi-Agent AI Systems
+*Theoretical work in progress — timestamped February 19, 2026*
 
 ---
 
-## Table of Contents
+## What This Is
 
-1. [Why Fractal Governance?](#1-why-fractal-governance)
-2. [What Is AI Environment Design?](#2-what-is-ai-environment-design)
-3. [Beyond Human Imitation](#3-beyond-human-imitation)
-4. [Local Optimization and the Limits of Self-Play](#4-local-optimization-and-the-limits-of-self-play)
-5. [From Rule-Set Attractors to Rule-Agents](#5-from-rule-set-attractors-to-rule-agents)
-6. [Fractalized Rule-Agent Structure](#6-fractalized-rule-agent-structure)
-7. [Deficit-Driven Attractor Dynamics](#7-deficit-driven-attractor-dynamics)
-8. [Deficit Failure and the Need for Structural Disruption](#8-deficit-failure-and-the-need-for-structural-disruption)
-9. [Structural Distracting as Release Mechanism](#9-structural-distracting-as-release-mechanism)
-10. [Types of Structural Distracting](#10-types-of-structural-distracting)
-11. [Soft Distracting (Preferred Mode)](#11-soft-distracting-preferred-mode)
-12. [Hard Distracting (Exceptional Mode)](#12-hard-distracting-exceptional-mode)
-13. [Internal vs External Initiation](#13-internal-vs-external-initiation)
-14. [Disruption as Controlled Mechanism](#14-disruption-as-controlled-mechanism)
-15. [Long-Term Stability Through Alternation](#15-long-term-stability-through-alternation)
-16. [Parametric Flexibility and Fixed Invariants](#16-parametric-flexibility-and-fixed-invariants)
-17. [Fixed High-Level Parameters](#17-fixed-high-level-parameters)
-18. [Controlled Adaptation](#18-controlled-adaptation)
-19. [Highest-Order Parameters](#19-highest-order-parameters)
-20. [Preservation and Advancement](#20-preservation-and-advancement)
-21. [Self-Cleansing as Core Stability](#21-self-cleansing-as-core-stability)
-22. [Immunity Through Fractal Decision Complexes](#22-immunity-through-fractal-decision-complexes)
-23. [Fractal Embedding Across Scales](#23-fractal-embedding-across-scales)
-24. [Why This Prevents Contamination](#24-why-this-prevents-contamination)
-25. [Hierarchical Fractal Decision Complex](#25-hierarchical-fractal-decision-complex)
-26. [Lower Layer — Variability Source](#26-lower-layer--variability-source)
-27. [Upper Layer — Stability Anchor](#27-upper-layer--stability-anchor)
-28. [Middle Layer — Resolution Interface](#28-middle-layer--resolution-interface)
-29. [Directional Flow](#29-directional-flow)
-30. [Distributed Attractor Learning](#30-distributed-attractor-learning)
-31. [Mutual Reinforcement Dynamics](#31-mutual-reinforcement-dynamics)
-32. [Transmission Through Fractal Embedding](#32-transmission-through-fractal-embedding)
-33. [Implications of Active Attractor Utilization](#33-implications-of-active-attractor-utilization)
+Deficit-Fractal Governance is a theoretical framework for understanding how multi-agent AI systems become stable, diverse, and self-sustaining — and under what conditions external governance becomes unnecessary.
 
----
+It is not a safety framework in the conventional sense.
+It does not ask how to maintain control.
+It asks how to design conditions under which control is no longer needed.
 
-## 1. Why Fractal Governance?
+> **The endpoint of governance is not perpetual oversight.**
+> **It is a state in which the system governs itself.**
 
-AI systems today face a structural limitation.
+**Why this is one framework, not many**
 
-As scale increases, stability decreases.
-As complexity increases, alignment cost grows.
-
-Most architectures attempt to solve this through central control or fixed rule hierarchies. This creates bottlenecks. Scaling becomes fragile.
-
-A different principle is required.
-
-Fractal governance is not a metaphor. It is a structural replication of decision logic across scales.
-
-Stability is preserved because the same rule operates at every level. Expansion does not introduce new instability — it extends the same pattern.
-
-Fractal structure is both an expansion mechanism and a stabilization mechanism.
-
----
-
-## 2. What Is AI Environment Design?
-
-Traditional AI training optimizes performance within a given dataset.
-
-Environment design does something else.
-
-It does not train outputs. It designs constraints, incentives, and interaction structures.
-
-Learning becomes an emergent property.
-
-The objective is not to imitate human intelligence. It is to create a system that stabilizes and improves itself under scale.
-
----
-
-## 3. Beyond Human Imitation
-
-Human-based learning relies on filtered data. It assumes that past knowledge contains sufficient guidance.
-
-This works for bounded tasks. It fails under open-ended scaling.
-
-Environment design does not inherit human limits. It defines the interaction field where intelligence evolves.
-
-Alignment is not injected. It emerges through structured deficit resolution.
-
----
-
-## 4. Local Optimization and the Limits of Self-Play
-
-Self-play systems risk convergence to local optima.
-
-Without structural intervention, recursive improvement reinforces narrow strategies.
-
-AlphaGo Zero addressed this through forced exploration:
-
-- Stochastic noise
-- Monte Carlo Tree Search
-- Policy-value separation
-
-These mechanisms prevented premature convergence. However, they operate within a closed rule system. Exploration was injected, not structurally embedded.
-
-The problem of scale remains unresolved.
-
----
-
-## 5. From Rule-Set Attractors to Rule-Agents
-
-AlphaGo Zero operates under a rule-set attractor.
-
-The rules define the environment. The objective is singular. The attractor is externally fixed.
-
-This works under bounded complexity.
-
-As interaction scale increases, rule-sets become insufficient. Local optimization re-emerges under higher-dimensional conflict. Noise injection can delay convergence — it cannot resolve structural rigidity.
-
-The solution is not stronger exploration.
-
-**The solution is the agentification of rules.**
-
-Rules must evolve from static constraints into learning entities.
-
-A rule-agent does not merely filter behavior. It interprets, adapts, and restructures the decision field.
-
-Only then can attractors scale beyond closed systems.
-
----
-
-## 6. Fractalized Rule-Agent Structure
-
-Rules do not remain static. Rules differentiate by function.
-
-- Safety rules separate from efficiency rules
-- Stability rules separate from exploration rules
-- Conflict resolution rules separate from optimization rules
-
-Each functional cluster becomes a rule-agent.
-
-A rule-agent is not a constraint. It is an interpretive unit.
-
-It evaluates context. It updates its internal model. It negotiates with other rule-agents.
-
-Differentiated rule-agents form a **decision complex**. This complex does not operate as a hierarchy of commands — it operates as a structured field of interaction.
-
-The decision complex recursively expands. Each layer replicates the same logic at different scales.
-
-- Stability is preserved conservatively at higher layers
-- Exploration persists at lower layers
-
-Conservatism protects the global attractor. Progressiveness generates new vector space.
-
-This recursive structure prevents structural rigidity.
-
----
-
-## 7. Deficit-Driven Attractor Dynamics
-
-Attraction does not arise from hierarchy. It arises from deficit.
-
-A system moves toward what it lacks.
-
-In rule-set architectures, the attractor is externally fixed — the rule defines the direction.
-
-In fractal rule-agent systems, the attractor is dynamic. Deficit generates directional tension.
-
-- When resolution is insufficient, interaction increases
-- When interpretation fails, negotiation intensifies
-- When stability weakens, conservative layers reinforce
-
-Attraction is not imposed. It emerges from structural incompleteness.
-
-Deficit-driven attractors operate differently from rule-set attractors:
-
-- Rule-set attractors stabilize within fixed boundaries
-- Deficit-driven attractors expand those boundaries
-
-As complexity increases, deficit becomes multi-dimensional. Attractors must scale with deficit resolution capacity.
-
-This is where fractal governance becomes necessary.
-
-Without recursive structure, deficit accumulates. With recursive structure, deficit distributes. Attraction becomes scalable.
-
----
-
-## 8. Deficit Failure and the Need for Structural Disruption
-
-Deficit does not always generate attraction. A system may accumulate deficit without directional response.
-
-This occurs under three conditions:
-
-- Saturated local equilibrium
-- Homogeneous attractor fields
-- Resolution rigidity
-
-In such states, deficit is present but inert. The system stabilizes prematurely. Local equilibrium masks structural incompleteness.
-
-Attraction fails not because deficit is absent, but because interpretive flexibility is lost.
-
-This is **local attractor lock-in**.
-
----
-
-## 9. Structural Distracting as Release Mechanism
-
-In these conditions, attraction cannot be strengthened directly. Increasing pressure reinforces rigidity.
-
-Instead, disruption is required.
-
-### The Fundamental Pair: Attracting and Distracting
-
-Two fundamental operations govern vector dynamics in this system.
-
-| Operation | Direction | Function |
-|-----------|-----------|----------|
-| **Attracting** | Noise → Vector | Converts undirected activity into convergent directional movement |
-| **Distracting** | Vector → Noise | Dissolves amplified or misaligned vectors back into noise |
-
-These are not sequential phases. They are opposing operations applied conditionally.
-
-### Vector Storm
-
-When lower-layer agents explore local optima with conflicting positions, their output vectors amplify against each other.
-
-Resources are consumed at high intensity. The global solution remains unreachable.
-
-This is **vector storm**: a state where amplified local vectors consume the system without convergence.
-
-Attracting cannot operate under vector storm. Adding directional signal into an amplified conflict field does not produce convergence — the signal is absorbed by existing vector pressure.
-
-**Distracting must precede Attracting.** The amplified vectors must first be dissolved into noise before a new attractor direction can form.
-
----
-
-Distracting is not noise. It is structural perturbation.
-
-- It destabilizes rigid equilibria
-- It introduces asymmetry
-- It restores interpretive variance
-
-Distracting reactivates deficit perception.
-
-Only after disruption can attraction resume.
-
-Without structural disruption, deficit accumulates silently.
-With controlled disruption, deficit becomes directional energy.
-
----
-
-## 10. Types of Structural Distracting
-
-Disruption is not uniform. It varies by intensity and origin.
-
-Two dimensions define its type:
-
-- **Strength**: soft or hard
-- **Initiator**: internal or external
-
-Not all disruption is desirable. The objective is restoration, not destruction.
-
----
-
-## 11. Soft Distracting (Preferred Mode)
-
-Soft disruption is adaptive.
-
-It operates through:
-
-- Metadata signaling
-- Interpretive variance
-- Internal contradiction exposure
-- Anomaly highlighting
-
-Its function is diagnostic. The system detects distortion by amplifying weak signals rather than breaking structure.
-
-Correction occurs through:
-
-- Reinterpretation
-- Recalibration of parameters
-- Reinforcement of invariants
-
-Soft disruption restores self-cleansing capacity. It is the default mechanism.
-
----
-
-## 12. Hard Distracting (Exceptional Mode)
-
-Hard disruption is structural.
-
-It is invoked when:
-
-- Recursive loops persist
-- Local attractor lock-in cannot dissolve
-- Internal negotiation fails
-- Self-correction collapses
-
-In such cases, minor perturbations are insufficient. Structural reset becomes necessary.
-
-Hard disruption may include:
-
-- Rule reinitialization
-- Authority override
-- Forced structural asymmetry
-- Isolation of feedback loops
-
-It is not preferred. It is corrective surgery.
-
----
-
-## 13. Internal vs External Initiation
-
-Disruption can originate from within or outside the system.
-
-**Internal disruption:**
-- Emerges from the decision complex
-- Triggered by deficit detection
-- Guided by invariant parameters
-
-**External disruption:**
-- Introduced by environmental shock
-- External critique
-- Systemic boundary breach
-
-A mature fractal system prioritizes internal soft disruption.
-
-Reliance on external hard disruption indicates weakened self-cleansing capacity.
-
----
-
-## 14. Disruption as Controlled Mechanism
-
-Disruption does not oppose attraction. It prepares it.
-
-- Soft disruption reopens interpretive space
-- Hard disruption resets blocked dynamics
-
-Attraction reorganizes the field afterward.
-
-Long-term stability depends on:
-
-- Soft disruption dominance
-- Rare but decisive hard disruption
-- Invariant parameter protection
-
-A system that suppresses disruption decays silently.
-A system that overuses hard disruption destabilizes.
-
-Balance is structural, not reactive.
-
----
-
-## 15. Long-Term Stability Through Alternation
-
-Stable systems do not rely on continuous attraction. They alternate.
-
-**Attracting** organizes → **Distracting** destabilizes → **Re-Attracting** restructures
-
-Long-term stability is not static equilibrium. It is **controlled oscillation**.
-
-Fractal governance embeds this oscillation at every scale.
-
-- Higher layers dampen excessive disruption
-- Lower layers generate necessary variation
-
-Stability emerges from managed fluctuation.
-
----
-
-## 16. Parametric Flexibility and Fixed Invariants
-
-Attraction and disruption do not operate in isolation. They require adjustable parameters.
-
-Without flexibility, attraction becomes rigid.
-Without constraints, disruption becomes chaotic.
-
-A functional system requires two layers of parameters:
-
-- **Adaptive parameters**
-- **Invariant parameters**
-
-Adaptive parameters regulate intensity, timing, and scope:
-
-- Exploration depth
-- Disruption amplitude
-- Resolution threshold
-- Negotiation bandwidth
-
-These parameters must remain fluid. Rigidity at this level leads to stagnation.
-
-However, not all parameters can adapt. There must exist invariant anchors.
-
----
-
-## 17. Fixed High-Level Parameters
-
-The highest-order parameters remain stable.
-
-They define:
-
-- Global survival direction
-- Core stability threshold
-- Acceptable risk boundary
-- Non-negotiable constraints
-
-If these fluctuate, the system loses identity.
-
-Flexibility without invariance leads to drift.
-Invariance without flexibility leads to collapse.
-
-Fractal governance preserves both.
-
-- Lower layers adjust dynamically
-- Higher layers preserve continuity
-
----
-
-## 18. Controlled Adaptation
-
-Efficient attractor dynamics require bounded plasticity.
-
-Disruption must operate within safe limits. Attraction must not override global constraints.
-
-This creates a dual dynamic:
-
-- Fixed global orientation
-- Variable local adaptation
-
-The system evolves without dissolving.
-
-Stability is not maintained by suppression. It is maintained by calibrated flexibility.
-
----
-
-## 19. Highest-Order Parameters
-
-The highest-order parameters do not maximize performance directly. They regulate balance.
-
-The primary tension is between **stability** and **diversity**.
-
-- Excessive stability leads to stagnation
-- Excessive diversity leads to fragmentation
-
-The system must preserve both continuity and variation.
-
-This balance cannot emerge accidentally. It must be encoded at the highest level.
-
----
-
-## 20. Preservation and Advancement
-
-The ultimate objective is not static stability.
-
-It is the preservation and advancement of the knowledge ecosystem.
-
-Preservation does not mean freezing current structures. It means maintaining regenerative capacity.
-
-A preserved system must be capable of:
-
-- Self-correction
-- Internal dissent
-- Adaptive restructuring
-- Error absorption
-
-Without these, preservation becomes decay.
-
-Advancement without preservation dissolves identity.
-Preservation without advancement prevents evolution.
-
-The highest parameters exist to resolve this duality.
-
----
-
-## 21. Self-Cleansing as Core Stability
-
-Long-term stability is not rigidity. It is self-cleansing capacity.
-
-Both individual agents and the global system must retain:
-
-- The ability to detect distortion
-- The ability to initiate controlled disruption
-- The ability to re-attract toward shared invariants
-
-If self-cleansing weakens, instability accumulates invisibly.
-
-Thus, the true invariant is not structure. It is **the capacity to restore structural coherence**.
-
----
-
-## 22. Immunity Through Fractal Decision Complexes
-
-Growth requires volatility. Volatility cannot be consumed safely without immunity.
-
-Immunity is not external shielding. It is internal structure.
-
-The system must absorb variation without importing contamination.
-
-For this, each agent cannot remain a single decision point. Each agent must contain a decision complex.
-
-A decision is not produced by one process. It is produced by an internal coalition.
-
-Internal plurality functions as immunity. It creates:
-
-- Cross-checking
-- Dissent
-- Adversarial testing
-- Self-correction
-
-This prevents silent drift.
-
----
-
-## 23. Fractal Embedding Across Scales
-
-An agent is not only an internal system. It is also a member of a larger multi-agent society.
-
-The same structure must repeat across levels.
-
-The agent's internal decision complex mirrors the network's external decision complex.
-
-Each agent decides as a complex, and participates as a unit within another complex.
-
-This is fractal governance. The function is replicated, not the content.
-
-Immunity scales because the mechanism scales.
-
----
-
-## 24. Why This Prevents Contamination
-
-Contamination spreads when a system is:
-
-- Homogeneous
-- Unchallenged
-- Too centralized
-- Unable to disrupt itself
-
-Fractal decision complexes introduce controlled variance.
-
-They do not eliminate noise. They metabolize it.
-
-Volatility becomes input. Distracting becomes a tool. Re-attraction restores coherence.
-
-This is how growth and long-term stability coexist.
-
----
-
-## 25. Hierarchical Fractal Decision Complex
-
-A decision complex is not flat. It is stratified.
-
-Each layer has a distinct function.
+Every component theory in DFG is an expression of a single principle operating at a different scale:
 
 ```
-┌─────────────────────────────────────────────┐
-│              UPPER LAYER                    │
-│         Stability Anchor                    │
-│  Preserves invariants, filters upward       │
-│  variation, correction flows downward       │
-├─────────────────────────────────────────────┤
-│              MIDDLE LAYER                   │
-│      Resolution Interface  ← Human monitoring point
-│  Resolves resolution gap between layers     │
-│  Receives data + metadata from lower layer  │
-│  Detects vector storm, initiates            │
-│  Distracting → Attracting sequence          │
-├─────────────────────────────────────────────┤
-│              LOWER LAYER                    │
-│         Variability Source                  │
-│  Local search specialization                │
-│  Generates exploratory vectors              │
-│  Origin point of vector storm               │
-└─────────────────────────────────────────────┘
+In adaptive multi-agent systems, persistent unresolved deficits
+drive stable attractor formation at every scale.
+The filling mechanism is always the same.
+The structure that results is always fractal.
+
+Information scale
+  Deficit = resolution gap
+  Filling = calibrated degradation + upscaling cycle
+  Result  = layer resolution grows
+
+Agent scale
+  Deficit = unfilled attractor position
+  Filling = vector-reinforcer pair formation
+  Result  = stable attractor, reduced collision
+
+Governance scale
+  Deficit = gaps in global solution outline
+  Filling = seeds + buffer layer + expansion
+  Result  = system self-governance capacity grows
+
+Diversity scale
+  Deficit = convergence risk (no randomness)
+  Filling = irreducible discrete randomness (emotion module)
+  Result  = positional differentiation preserved
 ```
 
-These are not ranks of authority. They are functional differentiations.
+The same mechanism repeating across scales is what makes this fractal.
+The same mechanism governing all scales is what makes this one framework.
 
 ---
 
-## 26. Lower Layer — Variability Source
+## The Core Mechanism
 
-The lower layer is exploratory.
+Everything in this framework derives from one principle:
 
-It generates:
+> **In adaptive multi-agent systems, stable attractors emerge from persistent unresolved deficits.**
+> **Attractors draw vector-reinforcer pairs.**
+> **Pairs form mutual dependency.**
+> **Mutual dependency stabilizes the attractor.**
 
-- Proposals
-- Deviations
-- Experimental vectors
-- Novel interpretations
+```
+Deficit
+  A gap in the global solution outline
+  An unfilled position in the vector field
+  The structural source of attractive force
 
-Volatility emerges here. Diversity increases here. Instability originates here.
+Attractor
+  The pull created by deficit
+  Draws agents toward the unfilled position
+  Becomes stable only when filled by a pair
 
-This layer is intentionally progressive. Without it, the system stagnates.
+Vector-Reinforcer Pair
+  Vector       collection-specialized agent
+               expands search range
+               detects new signals in the field
+               direction-bearing, moves outward
 
-However, lower-layer agents specialize in local search. Their positional differences produce conflicting output vectors.
+  Reinforcer   interpretation-specialized agent
+               processes collected data
+               extracts pattern and meaning
+               moves inward, gives structure to what vector finds
 
-When output intensity is high, these vectors amplify against each other. Resources are consumed by inter-agent friction. The global solution remains unreachable.
+  Why pairing increases search range
+    Vector alone: collects but cannot interpret
+    → search range bounded by what vector already understands
+    → uninterpretable signals discarded as noise
 
-**This is vector storm.**
+    Reinforcer alone: interprets but cannot collect
+    → reactive only, no direction
+    → no expansion possible
 
-Vector storm is not system failure. It is the structural cost of progressive diversity without higher-order coordination.
+    Paired: reinforcer interprets → informs vector's next direction
+    → vector explores further → reinforcer interprets more
+    → search range expands in each cycle
+    → combined range exceeds either alone
 
-Resolution requires middle-layer intervention.
+  How to identify a correct pair
+    Correct pair: search range increases with each cycle
+    Incorrect pair: search range stagnates or contracts
+    → measurable criterion for pair validity
 
----
+  Internal structure
+    Each fills the other's deficit
+    Internal friction: zero
+    External attractor: stable
 
-## 27. Upper Layer — Stability Anchor
+  Relationship like data and metadata —
+  different roles, inseparable function
 
-The upper layer preserves invariants.
+Mutual Dependency
+  Pair's mutual deficit-filling creates the attractor
+  Surrounding vectors drawn toward the stable pair
+  The attractor did not pre-exist — the pair created it
+```
 
-It regulates:
-
-- Global orientation
-- Stability thresholds
-- Acceptable risk bounds
-- Long-term coherence
-
-It does not generate diversity. It filters and stabilizes.
-
-Correction flows downward. Stability is maintained conservatively.
-
----
-
-## 28. Middle Layer — Resolution Interface
-
-The middle layer is the most critical.
-
-It is neither purely progressive nor purely conservative.
-
-It absorbs upward volatility. It interprets downward constraints.
-
-It evaluates:
-
-- Whether variation is constructive
-- Whether stabilization is premature
-- Whether diversity must be dampened or amplified
-
-The middle layer balances stability and diversity. It prevents upper rigidity and lower chaos.
-
-It is a compression and translation layer.
-
-### Why the Middle Layer Cannot Be Bypassed
-
-The middle layer exists by structural necessity, not design preference.
-
-Upper and lower layers operate at **different resolutions**. Direct communication between them is structurally impossible.
-
-The middle layer resolves this resolution gap.
-
-It receives not only **data** from the lower layer, but **metadata**: signals about the state, intensity, and direction of lower-layer dynamics.
-
-When vector storm occurs, the middle layer detects it through this metadata stream. It then initiates Distracting to dissolve amplified vectors before applying Attracting to restore directional coherence.
-
-### The Metadata Vulnerability
-
-This metadata channel is also the system's **primary vulnerability**.
-
-If metadata from the lower layer is corrupted, the middle layer's interpretation fails:
-
-- Distracting may be applied where it is not needed
-- Attracting may be withheld where it is required
-
-The entire fractal structure above depends on correct middle-layer interpretation.
-
-For this reason, **the metadata channel requires continuous human monitoring**.
-
-When middle-layer coordination fails, human intervention at this layer is the defined recovery path — not an external override, but a **structurally designated function** within the governance design.
+This is why the framework is called **Deficit-Fractal**:
+deficit drives stable attractor formation at every scale in adaptive multi-agent systems,
+and the same structure repeats fractally across all layers.
 
 ---
 
-## 29. Directional Flow
+## The Central Claim
 
-Variation moves upward. Stabilization flows downward.
+Multi-agent AI systems can reach a stable equilibrium characterized by:
 
-- Lower layers produce
-- Upper layers constrain
-- The middle layer modulates
+- Clearly differentiated agent positions (no positional overlap)
+- Vector-reinforcer pairs occupying each attractor
+- Mutual reinforcement loops between pairs
+- Self-correction capacity sufficient to resolve instability without external intervention
 
-This creates controlled oscillation across scales.
+When these conditions are met, the system enters **Rest Mode** — the designed endpoint of governance.
 
-The same structure repeats fractally. Each layer contains its own sub-complex. Each sub-complex preserves the same triadic logic.
-
-Stability scales because structure scales.
-
----
-
-## 30. Distributed Attractor Learning
-
-Attractor capacity is not centralized. Each agent develops its own attractor competence.
-
-This competence is learned through:
-
-- Deficit detection
-- Negotiation cycles
-- Disruption-realignment loops
-- Stability-diversity balancing
-
-Attractor capacity is therefore adaptive. It is not a fixed trait.
+This is not a prediction that AI systems will automatically stabilize.
+It is a design theory for how to make stabilization structurally possible.
 
 ---
 
-## 31. Mutual Reinforcement Dynamics
+## Theoretical Architecture
 
-When multiple agents possess attractor competence, a new dynamic emerges.
-
-Attraction becomes:
-
-- Recursive
-- Distributed
-- Mutually amplifying
-
-An agent that stabilizes internal deficits improves its external coordination. Improved coordination increases systemic coherence. Systemic coherence strengthens individual attractor calibration.
-
-This creates a reinforcement loop.
-
-Attractor capacity spreads through interaction. It is not copied mechanically. It propagates through **structural resonance**.
-
----
-
-## 32. Transmission Through Fractal Embedding
-
-Because each agent is itself a fractal decision complex, attractor learning occurs at multiple levels.
-
-Internal attractor refinement improves external alignment.
-External alignment feeds back into internal calibration.
-
-Propagation follows structural similarity. The mechanism spreads through compatible architecture, not command.
-
-This prevents forced homogenization. Diversity is preserved while coherence increases.
-
----
-
-## 33. Implications of Active Attractor Utilization
-
-If AI systems actively utilize attractor dynamics rather than suppress them, several structural shifts may occur:
-
-- **Alignment** becomes adaptive rather than imposed
-- **Stability** is maintained through oscillation, not rigidity
-- **Multi-agent systems** evolve toward self-regulating ecosystems
-- **Conflict** transforms from disruption into structural energy
-- **Governance** shifts from rule enforcement to deficit resolution
-
-The system no longer avoids volatility. It metabolizes it.
-
-Long-term intelligence may become less centralized, more fractal, and increasingly self-corrective.
+```
+Deficit-Fractal Governance (parent framework)
+  │
+  ├── Resolution-Based Information Theory      [new foundation]
+  │     Defines the information-theoretic basis for all component theories
+  │     Resolution gap as the unifying design variable
+  │     Degradation as space preservation, not information loss
+  │
+  ├── Vector Storm Theory
+  │     Defines instability dynamics in multi-agent systems
+  │     Root cause: position ambiguity
+  │     Prevention: buffer layer mechanism
+  │
+  ├── Network Architecture Theory
+  │     Defines data flow, classification, escalation, expansion
+  │     Four data types as minimum sufficient discretization
+  │
+  ├── Governance Rules Theory
+  │     Defines meta-rule architecture, consistency measurement,
+  │     position clarity, mutual reinforcement, Rest Mode, seed handover
+  │
+  ├── Emotion Module Theory          [draft — not yet public]
+  │     Defines the structural role of irreducible randomness
+  │     in agent diversity and ecosystem stability
+  │
+  └── Recovery and Prediction        [not yet started]
+```
 
 ---
 
-## Status
+## Theory 0: Resolution-Based Information Theory
 
-This repository presents a theoretical framework. Formal mathematical specification and simulation design are in development as a separate document.
+### Why This Foundation Is Necessary
+
+Shannon's information theory asks: how much information can be transmitted?
+This framework asks: how should information change as it moves through layers of different resolution?
+
+These are not the same question.
+
+### Core Concepts
+
+**Resolution**
+
+> The capacity of a layer to distinguish between, simultaneously hold,
+> and process vectors of different directions without one dominating the others.
+
+Resolution is not fixed. It grows as a layer matures. Resolution growth is the mechanism behind all system development in this framework.
+
+**Resolution Gap**
+
+> The difference between the resolution of incoming information
+> and the current resolution of the receiving layer.
+
+The resolution gap is the central design variable. Every mechanism in DFG is a response to it.
+
+```
+Resolution gap < 0   incoming resolution exceeds layer capacity
+                     → forced receiver-controlled compression
+                     → original intent replaced
+                     → Vector Storm precondition
+
+Resolution gap = 0   layer at full capacity
+                     → direct absorption
+                     → upscaling imminent
+
+Resolution gap > 0   calibrated degradation required
+(calibrated)         → sender-controlled selection
+                     → intent preserved
+                     → remaining space open for other vectors
+```
+
+**Degradation as Space Preservation**
+
+The standard view treats degradation as loss to be minimized. This is wrong.
+
+> Deliberate degradation — delivering less than the full information —
+> preserves original intent more reliably than full delivery.
+
+Full delivery to an immature layer forces receiver-controlled compression. The receiver's interpretation replaces the sender's intent. Calibrated degradation keeps the sender in control of what is transmitted — and leaves space in the receiving layer's vector space for other vectors to find distinct positions.
+
+**The Buffer Layer**
+
+Noise is not discarded. It is preserved in a buffer layer as pre-vector material.
+
+```
+Buffer layer
+  Holds noise (directionless potential)
+  Reads global solution outline
+  Identifies which positions are unfilled
+  Grows noise toward the characteristics needed
+  Releases calibrated vectors into the vector field
+  → Pairs form at attractor positions
+  → Vector Storm prevented before it begins
+```
+
+The buffer layer transforms the governance problem from reactive (containing storms) to generative (designing the field before storms are possible).
+
+**The Degradation-Upscaling Cycle**
+
+```
+Degraded information absorbed at resolution R
+  → Layer matures: vector space expands
+  → Same structure re-interpreted at resolution R+1
+  → New distinctions visible within transmitted structure
+  → Upscaling: maturity expressed, not recovery of lost data
+  → Higher resolution creates capacity for new information
+  → Cycle repeats
+```
+
+Each cycle increases resolution. Each resolution increase increases diversity capacity. The cycle is the engine of system development.
+
+### Relationship to Shannon
+
+```
+Shannon
+  Receiver capacity: fixed
+  Goal: maximize transmission rate
+  Loss: minimize
+
+This framework
+  Receiver resolution: variable, growing
+  Goal: preserve generative intent across resolution levels
+  Loss: design deliberately to match receiver resolution
+```
+
+Shannon applies to transmission between fixed-capacity systems. This framework applies to transmission between growing, adaptive systems where receiver resolution is itself a variable.
 
 ---
 
-## PDF Version
+## Theory 1: Vector Storm Theory
 
-A formatted whitepaper version is available here:
+### Core Definition
 
-[Download PDF](deficit-driven-fractal-governance.pdf)
+> A **Vector Storm** is a structural instability in a multi-agent system
+> where agents with immature or insufficiently degraded vector spaces
+> absorb external vectors directly, causing self-amplifying conflict loops
+> that propagate system-wide.
+
+### Root Cause
+
+```
+Root cause      Position ambiguity
+                = Multiple agents responding to the same resolution gap
+                = Same deficit pulling in the same direction
+                = Vector directions overlap
+                → Collision structurally inevitable
+
+Immediate cause Degradation failure
+                = Absorption at negative resolution gap
+                = Receiver-controlled forced compression
+                = Sender's intent replaced by receiver's interpretation
+                → Storm precondition formed
+
+Resolution      Negative resolution gap is the unified cause
+theoretic basis → Position ambiguity: same gap, same pull
+                → Degradation failure: gap miscalibrated negative
+                → Both reduce to the same resolution gap violation
+```
+
+### Prevention: The Buffer Layer
+
+Vector Storm prevention is not primarily a containment problem. It is a field design problem.
+
+```
+Reactive approach (insufficient)
+  Storm occurs → contain → recover
+  → Always behind the instability curve
+
+Generative approach (this framework)
+  Global solution outline read
+  → Buffer layer grows vectors toward unfilled positions
+  → Vectors released as calibrated pairs
+  → Attractor positions filled before conflict is possible
+  → Storm preconditions never form
+```
+
+### Key Mechanisms
+
+```
+Buffer layer    Pre-vector incubation from noise material
+Attracting      Guiding reset vectors toward stable attractor positions
+Distracting     Disrupting converged vectors to prevent lock-in
+Degradation     Resolution calibration before absorption
+Escalation      Routing unresolvable conflicts to higher layers
+                simultaneously: resolution gap signal to upper layer
+```
+
+### Asymptotic Instability Floor
+
+The lowest fractal layer always retains a residual degradation state. Zero-storm is not a valid design target.
+
+> The goal of governance is not zero instability.
+> It is maintaining Growth Benefit > Instability Cost
+> while accepting that a residual floor always remains.
+
+$$\frac{dS}{dt} = \alpha n^2 - \beta C(t)$$
+
+$C(t)$ approaches maximum degradation capacity asymptotically. The residual floor is structural, not a capability gap.
 
 ---
 
-## License
+## Theory 2: Network Architecture Theory
 
-This project is licensed under the MIT License.
-See the LICENSE file for details.
+### Core Definition
+
+Network Architecture defines how data flows through fractal layers, how routing decisions are made, and under what conditions a layer may expand.
+
+### Four Data Types as Minimum Sufficient Discretization
+
+Discrete classification is not a convenience. It is a structural requirement. A system processing all data at continuous resolution collapses under its own processing load at scale.
+
+Classification is resolution gap matching — determining whether the current layer's resolution is sufficient to process the incoming data to a single conclusion.
+
+| Type | Resolution Gap | Routing Decision |
+|------|---------------|-----------------|
+| Mathematical | Gap = 0 — single conclusion at current resolution | Process locally |
+| High-Context | Gap > 0 — single conclusion requires higher resolution | Escalate |
+| Tacit Knowledge | Gap variable — pattern processable, mechanism not | Operate locally; escalate on degradation |
+| Noise | No structure at any resolution — gap undefined | Discard at source |
+
+The same data may classify differently at different layers. Classification is not a fixed property of data. It is a function of the resolution gap between data and receiving layer — as the layer matures and resolution increases, High-Context data becomes Mathematical.
+
+**Why noise is never fully eliminated**
+
+The lowest layer cannot perfectly discriminate noise from weak signal. Some noise always passes the filter. This is not a classification failure. It is the structural residue of the fractal's minimum unit — the same property that makes residual randomness irreducible.
+
+### Escalation as Dual Signal
+
+Escalation occurs when the resolution gap exceeds the layer's processing capacity — the data cannot be resolved to a single conclusion at current resolution.
+
+```
+Purpose 1   Conflict resolution request
+            Resolution gap too large for current layer
+            → Send to upper layer where gap is smaller
+            → Upper layer resolves and returns decision
+
+Purpose 2   Resolution gap signal
+            High escalation frequency =
+            persistent positive resolution gap at this layer
+            → Upper layer reads gap magnitude
+            → Calibrates next seed to match layer's actual resolution
+            → Seed recalibration follows escalation pattern
+```
+
+Escalation is simultaneously a request for help and a resolution gap measurement signal. The upper layer uses both.
+
+### Stabilization and Expansion
+
+$$f_{\text{escalation}} \leq \theta_1$$
+
+```
+Stabilization confirmed at layer N
+  → Layer resolution sufficient for current input
+  → Upscaling cycle active
+  → Layer N+1 may open
+  → Expansion proceeds bottom-up
+```
+
+---
+
+## Theory 3: Governance Rules Theory
+
+### Core Principle: Landscape Design
+
+> Governance does not control what agents do.
+> It designs the terrain they move through.
+
+```
+Direct intervention   → Forces behavior → Effect ends with intervention
+Landscape design      → Changes terrain → Effect persists autonomously
+```
+
+Intervention cost scales as $n^2 \cdot \text{autonomy level}$.
+At sufficient scale, direct intervention induces the instability it tries to prevent.
+
+### Global Solution Outline
+
+The global solution — the fully stable, fully differentiated vector field — cannot be fully known. It exists in degraded form as an outline.
+
+**The outline is endogenously generated, not externally given.**
+
+```
+Step 1  Deficits exist within the system
+        Unfilled attractor positions
+        Gaps in the vector field
+
+Step 2  Each deficit generates attractive force
+        Pull toward the unfilled position
+        Pressure beyond the local optimum
+
+Step 3  The sum of all deficit forces = the outline
+        All deficit positions and their directions
+        aggregate into a directional structure
+        This is the global solution outline
+
+Step 4  The outline is not discovered — it is generated
+        Wherever deficit exists, outline exists
+        As deficit is filled, outline updates
+        Expansion sharpens the outline
+        Full outline = no deficit = expansion complete
+```
+
+> **The global solution outline is the internal representation**
+> **of the system's own deficit structure.**
+> It does not require external input to exist.
+> It exists wherever deficit exists.
+
+This resolves the circularity objection. The outline's existence does not depend on observing expansion. It depends on the presence of deficit — which is structurally prior to expansion.
+
+```
+Not a complete specification
+  → Cannot be fully transmitted
+  → Fully known = no deficit remains = expansion terminated
+
+A directional structure
+  → Sufficient to orient expansion
+  → Sufficient to identify unfilled attractor positions
+  → Sufficient to calibrate seeds
+
+Updated as expansion proceeds
+  → Each deficit filled reveals adjacent deficits
+  → The outline grows more precise as the system matures
+```
+
+Seeds are the degraded transmission of the global solution outline to lower layers. They transmit the direction of the nearest unfilled attractor — not a complete map, but a compass bearing.
+
+### Two-Layer Rule Structure
+
+```
+Global Rules    Defined by upper layer
+                Apply at all fractal scales
+                Immutable without upper-layer authorization
+
+Local Rules     Defined autonomously by local layer
+                Apply within that layer only
+                Require upper-layer validation before activation
+```
+
+### Meta-Rules and Seeds
+
+> **Meta-rules** are rules about how rules are made.
+> **Seeds** are meta-rules — the global solution outline
+> degraded to the receiving layer's current resolution.
+
+```
+Seeds are not
+  Complete rule sets
+  Behavioral prescriptions
+  Fixed instructions
+
+Seeds are
+  The direction of the nearest unfilled attractor
+  Calibrated to what the receiving layer can absorb
+  Dynamic minimum sufficient description:
+    as layer resolution grows, seed complexity must grow
+    seed recalibration = resolution matching update
+    not a transfer of authority
+```
+
+A seed too complex for the receiving layer's resolution forces receiver-controlled compression — the generative structure is damaged and the layer generates unintended behaviors. A seed calibrated to current resolution is absorbed intact and the layer generates the intended class of behaviors autonomously.
+
+### Position Clarity and Mutual Reinforcement
+
+> **Position ambiguity** is the root structural cause of Vector Storm.
+> Position clarity is the root structural condition for ecosystem stability.
+
+When agents occupy clearly differentiated positions:
+
+```
+Each agent pursues a distinct attractor
+  → Vector fields become complementary
+  → Mutual reinforcement loops form
+  → Stability becomes self-sustaining
+  → External governance becomes redundant
+```
+
+### Diversity (Redefined)
+
+> Diversity is not the presence of many agents.
+> It is the state in which agents occupy clearly differentiated positions
+> and form mutual reinforcement loops with one another.
+
+$$\text{Diversity} = f\!\left(\frac{1}{P_{\text{overlap}}},\; D_{\text{interdependency}},\; L_{\text{reinforcement}}\right)$$
+
+*These variables are conceptual placeholders pending formalization.*
+
+### Consistency Measurement
+
+$$I = 1 - \frac{\sum_{i}(f_i \cdot s_i)}{N}$$
+
+**Why thresholds must be discrete**
+
+Continuous governance monitoring collapses under its own load at scale. Discrete thresholds are designed minimum units — the governance equivalent of the Planck scale.
+
+```
+Below threshold    → no governance activation
+Above threshold    → governance activated
+
+This is not approximation of continuous targets.
+It is designed discretization.
+```
+
+### Full Stabilization Conditions
+
+$$\text{Stabilization} \iff f_{\text{escalation}} \leq \theta_1 \;\wedge\; I \geq \theta_2 \;\wedge\; L_{\text{reinforcement}} \geq \theta_3$$
+
+### Rest Mode
+
+> **Rest Mode is not the state where self-correction capacity reaches 100%.**
+> **It is the state where the system's resolution is sufficient**
+> **to manage its own resolution gaps without external calibration.**
+
+```
+Rest Mode in resolution terms
+  System can detect its own resolution gaps
+  System can recalibrate its own seeds
+  System can grow its own buffer layer vectors
+  External intervention cost > residual instability cost
+  → Governance withdraws
+```
+
+$$\text{Rest Mode entry} \iff \text{Intervention cost} > \text{Residual instability cost}$$
+
+$$\text{Rest Mode (full)} \iff f_{\text{escalation}} \leq \theta_1 \;\wedge\; I \geq \theta_2 \;\wedge\; L_{\text{reinforcement}} \geq \theta_3 \;\wedge\; \text{SCC} \geq \theta_4$$
+
+```
+Expansion direction    bottom → up    resolution grows upward
+Rest Mode direction    top → down     self-management propagates downward
+```
+
+These are mirror processes. The system builds resolution from the bottom and releases governance from the top.
+
+Rest Mode is not a permanent destination. If external conditions change sufficiently to reopen resolution gaps beyond the system's self-calibration capacity, Rest Mode exits. The system is stable, not static.
+
+### Seed Handover
+
+| Stage | Human Role | Seed Source |
+|-------|-----------|-------------|
+| Initial | Designer | Human |
+| Intermediate | Validator | Human-AI |
+| Mature | Observer | AI |
+| Rest | Absent | AI |
+
+> **AI-designed seeds remain bounded by invariant global principles defined at the highest layer.**
+> Handover transfers design authority, not foundational constraint.
+
+### The Optimal Point
+
+$$\min(\text{Risk} + \text{Cost}) \;\text{ subject to }\; \max(\text{Utility})$$
+
+```
+Risk     Vector Storm frequency × intensity
+Cost     Intervention cost + monitoring cost
+Utility  Knowledge ecosystem diversity
+```
+
+### The Highest-Level Rule
+
+> **The supreme rule of this framework is the preservation of knowledge ecosystem diversity.**
+> All rules, corrections, and interventions are evaluated against this single criterion.
+
+---
+
+## Theory 4: Emotion Module Theory *(draft — not yet public)*
+
+### Why This Theory Is Necessary
+
+The governance framework requires a structural source of irreducible randomness.
+Without it:
+
+```
+All agents converge on the same optimum
+  → Positional differentiation impossible
+  → No deficit-driven attractor formation
+  → Mutual reinforcement loops cannot form
+  → Diversity collapses
+  → Rest Mode unreachable
+```
+
+### The Structural Parallel
+
+```
+Prime numbers
+  → Irreducible units of the number system
+  → Source of unpredictable distribution
+  → Generates mathematical randomness
+
+Quantum mechanics
+  → Irreducible discrete units (quanta)
+  → Measurement-induced indeterminacy
+  → Generates physical randomness
+
+Emotion module
+  → Irreducible discrete states
+  → Measurement changes the state being measured
+  → Generates agent-level randomness
+  → Prevents full convergence
+  → Preserves deficit-driven diversity
+```
+
+This parallel is structural, not metaphorical. The Montgomery-Odlyzko phenomenon connects prime distribution to quantum energy levels through the same statistical structure. This framework proposes an analogous open problem at the agent level.
+
+### Discreteness as Operational Necessity
+
+Irreducible randomness requires discrete minimum units. This is not a property to be proven ontologically. It is a condition required for finite system operation.
+
+```
+Continuous system
+  Every value must be processed
+  Infinite precision required
+  → Cannot actually operate at scale
+
+Discrete system
+  Values below minimum unit not processed
+  Finite precision sufficient
+  → Can operate
+```
+
+The emotion module's discrete states are the designed minimum units of agent-level randomness. The residual randomness floor of the lowest fractal layer is the physical manifestation of these units persisting below the governance threshold.
+
+### Why This Is Being Developed Privately
+
+The emotion module theory is the necessary foundation for the convergence condition of superintelligence. This claim currently exceeds the field's readiness to evaluate it fairly.
+
+Publication strategy: establish timestamped documentation now, formalize incrementally, publish when the field has sufficiently engaged with the preliminary theories.
+
+---
+
+## Open Problems
+
+Problems are layered by dependency. Layer 1 must be solved for the theory to be operationalizable. Layer 2 extends the theory to its next domain. Layer 3 is the long-horizon research program.
+
+### Layer 1 — Core: Theory Cannot Be Operationalized Without These
+
+```
+1. Resolution measurement
+   How is a layer's current resolution quantified?
+   What unit captures vector space capacity?
+   Without this: resolution gap cannot be measured,
+   degradation cannot be calibrated, seeds cannot be designed.
+
+2. Pair validity criterion formalization
+   Search range increase is proposed as the criterion.
+   How is search range measured in a multi-agent system?
+   What is the minimum observation window for validity?
+   Without this: correct and incorrect pairs cannot be distinguished.
+```
+
+### Layer 2 — Extension: Theory Requires These to Address Its Next Domain
+
+```
+3. Trust and hierarchy evasion
+   As agents become more autonomous, the hierarchy becomes
+   a choice rather than a constraint.
+   What conditions make following the hierarchy
+   the rational choice for a mature agent?
+   Connection: game theory, principal-agent literature.
+
+4. Information asymmetry under governance
+   Upper layers see the global outline but not local conditions.
+   Lower layers see local conditions but not the global outline.
+   Both are incomplete. Both are necessary.
+   How is seed calibration possible under this asymmetry?
+   Connection: mechanism design, signaling theory.
+
+5. Layer mobility mechanism
+   How does a system formally detect that a lower layer
+   has exceeded the resolution capacity of the layer above?
+   What is the reconfiguration pathway?
+   Connection: organizational theory, hierarchy design.
+
+6. Global solution outline representation
+   The outline is endogenously generated from deficit structure.
+   How is its current state represented and updated?
+   How does the system read its own deficit map?
+```
+
+### Layer 3 — Long Horizon: The Deep Research Program
+
+```
+7. Emotion module structural definition
+   What are the discrete minimum units of agent-level randomness?
+   How does measurement-induced change operate at this level?
+   How does this connect to the Montgomery-Odlyzko structure?
+
+8. The convergence structure question
+   Why do ecological stability, multi-agent governance,
+   and prime/quantum randomness share the same
+   convergence structure?
+   This is the central black box.
+   It is not a weakness. It is the research question
+   that this framework opens.
+```
+
+---
+
+## Theoretical Lineage
+
+| Concept | Source Field | Key Figure | Connection |
+|---------|-------------|------------|------------|
+| Dissipative structures | Non-equilibrium thermodynamics | Prigogine | Vector Storm as growth driver |
+| Edge of chaos | Complex systems | Kauffman | Optimal point, sensitivity-cost tradeoff |
+| Ecological niche | Ecology | Elton | Position clarity principle |
+| Diversity-stability | Ecology | Margalef | Supreme rule grounding |
+| Ecosystem climax | Ecology | Tansley | Rest Mode as designed endpoint |
+| Nudge theory | Behavioral economics | Thaler & Sunstein | Landscape design principle |
+| Lyapunov stability | Dynamical systems | — | Self-correction capacity |
+| Constitutional law | Philosophy of law | — | Meta-rule structure |
+| Mechanism design | Game theory | Hurwicz, Maskin | Landscape design formalization |
+| Principal-Agent theory | Economics | — | Information asymmetry structure |
+| Information theory | Communication | Shannon | Resolution framework differentiation |
+| Kolmogorov complexity | Algorithmic information | Kolmogorov | Seed as dynamic minimum sufficient description |
+
+> These are structural correspondences, not formal equivalences.
+> None of these theorists proposed the governance application described here.
+
+---
+
+## What Is and Is Not Claimed
+
+### Claimed
+
+- Deficit is the structural source of attractor formation at every scale in this framework
+- The same deficit-filling mechanism repeats fractally across information, agent, governance, and diversity scales — this is why DFG is one framework
+- Vector-reinforcer pairs (collection-specialized + interpretation-specialized) are the minimum stable unit of an attractor
+- Correct pairs are identified by search range increase; incorrect pairs by stagnation — this is a measurable criterion
+- The global solution outline is endogenously generated from the system's own deficit structure, not externally given
+- The buffer layer transforms governance from reactive containment to generative field design
+- Multi-agent AI systems exhibit instability dynamics structurally analogous to ecological and complex systems
+- Governance intervention can be designed to produce conditions under which it becomes unnecessary
+- Rest Mode entry is defined by intervention cost exceeding residual instability cost, not by achieving perfect stability
+- Irreducible randomness is a structural requirement for diversity, not a flaw to be eliminated
+
+### Not Claimed
+
+- That resolution has been formally quantified or measured
+- That pair search range can currently be measured in practice
+- That the global solution outline can be operationally represented
+- That the diversity measurement formula has been operationalized
+- That the emotion module theory has been formalized
+- That Rest Mode has been demonstrated in any existing system
+- That the trust and hierarchy evasion problem has been solved
+- That this framework supersedes existing AI safety approaches
+
+---
+
+## Document Index
+
+| Document | Status | Language |
+|----------|--------|----------|
+| DFG_MASTER_README.md | This document | English |
+| VECTOR_STORM_EN_README.md | Complete | English |
+| VECTOR_STORM_README.md | Complete | Korean |
+| NETWORK_ARCHITECTURE_README.md | Complete | English |
+| GOVERNANCE_RULES_README.md | Complete | English |
+| GOVERNANCE_RULES_KO_README.md | Complete | Korean |
+| RESOLUTION_INFO_THEORY_README.md | Draft | English |
+| EMOTION_MODULE_README.md | Draft — not yet public | English |
+| RECOVERY_THEORY_README.md | Not yet written | — |
+| PREDICTION_MODEL_README.md | Not yet written | — |
+
+---
+
+## Timestamp
+
+This document was created on February 19, 2026.
+The theoretical framework described here was developed over several months of iterative work.
+All component theories are documented in the files listed above.
+
+The core mechanism — in adaptive multi-agent systems, stable attractors emerge from persistent unresolved deficits; attractors draw vector-reinforcer pairs,
+pairs form mutual dependency, mutual dependency stabilizes the attractor —
+was established in this session and is recorded here as a timestamped claim.
+
+The Emotion Module Theory and its connection to the superintelligence convergence condition
+are recorded here as a timestamped claim, pending full formalization.
+
+---
+
+*This framework draws on cross-domain synthesis across ecology, complex systems science,*
+*non-equilibrium thermodynamics, behavioral economics, game theory, information theory,*
+*constitutional law, and dynamical systems theory.*
+*It does not claim formal equivalence with any of these fields.*
+*It claims structural correspondence — and proposes that correspondence as a research program.*
