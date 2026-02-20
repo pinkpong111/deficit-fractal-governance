@@ -109,6 +109,11 @@ Vector-Reinforcer Pair
   Relationship like data and metadata —
   different roles, inseparable function
 
+  Terminology note
+    "Vector" and "Reinforcer" are functional roles, not model classes.
+    The same agent may switch roles across cycles
+    if the position map remains stable.
+
 Mutual Dependency
   Pair's mutual deficit-filling creates the attractor
   Surrounding vectors drawn toward the stable pair
@@ -118,6 +123,68 @@ Mutual Dependency
 This is why the framework is called **Deficit-Fractal**:
 deficit drives stable attractor formation at every scale in adaptive multi-agent systems,
 and the same structure repeats fractally across all layers.
+
+### Fractal Consistency Verification
+
+Because DFG is fractal, its mechanisms must be self-similar across scales.
+The strongest test: does the way the system manages agents match the way an agent manages data?
+
+```
+System level                      Agent level
+─────────────────────────────────────────────────────
+Multi-agent placement             Data vector placement
+Opposing agents separated         Opposing vectors separated
+Buffer layer (noise agents)       Buffer layer (noise data)
+Latent agent identification       Latent vector identification
+Agent cultivation via seed        Vector cultivation via seed
+Inter-agent friction minimized    Inter-vector friction minimized
+Excessive agent trimmed           Excessive vector trimmed
+Contaminated agent isolated       Contaminated vector isolated
+Upper layer holds full system map Upper resolution holds full data map
+Seed handover on maturity         Upscaling on maturity
+```
+
+**Every row maps.** The operating principle is identical at both scales.
+
+**The one structural difference — and why it strengthens the theory**
+
+```
+Data vectors    no autonomy → can be placed by force
+Agents          have autonomy → placement by force fails
+
+This is not a fractal inconsistency.
+It is why Attracting and deficit-based design exist.
+
+If agents could be forced into position like data vectors,
+Attracting would be unnecessary.
+The autonomy gap at the agent scale
+is precisely what requires the deficit mechanism.
+
+The fractal is self-similar, not identical.
+Self-similarity under varying autonomy
+is the correct definition of fractal structure.
+```
+
+**Practical implication**
+
+```
+Data-level implementations already exist
+  Vector databases, embedding pipelines,
+  noise filtering, positional clustering
+  → All implement DFG mechanics at data scale
+
+Agent-level implementation
+  = extending the same mechanics
+    to entities with autonomy
+  → Replace force-placement with deficit-attraction
+  → Replace noise-discard with buffer-cultivation
+  → Same structure, autonomy-adjusted
+
+"We are already doing this at the data level.
+ DFG is the framework for doing it at the agent level."
+→ Accessible entry point for practitioners
+→ Reduces perceived abstraction gap
+```
 
 ---
 
@@ -316,6 +383,9 @@ This framework
 
 Shannon applies to transmission between fixed-capacity systems. This framework applies to transmission between growing, adaptive systems where receiver resolution is itself a variable.
 
+> **Scope note:** Shannon optimizes channel transmission under fixed receiver capacity.
+> DFG optimizes intent-preserving transformation under growing receiver resolution.
+
 ---
 
 ## Theory 1: Vector Storm Theory
@@ -412,7 +482,7 @@ Classification is resolution gap matching — determining whether the current la
 | Mathematical | Gap = 0 — single conclusion at current resolution | Process locally |
 | High-Context | Gap > 0 — single conclusion requires higher resolution | Escalate |
 | Tacit Knowledge | Gap variable — pattern processable, mechanism not | Operate locally; escalate on degradation |
-| Noise | No structure at any resolution — gap undefined | Discard at source |
+| Noise | No structure at current resolution — gap undefined | Buffer or discard (policy-defined) |
 
 The same data may classify differently at different layers. Classification is not a fixed property of data. It is a function of the resolution gap between data and receiving layer — as the layer matures and resolution increases, High-Context data becomes Mathematical.
 
@@ -519,6 +589,10 @@ Updated as expansion proceeds
 ```
 
 Seeds are the degraded transmission of the global solution outline to lower layers. They transmit the direction of the nearest unfilled attractor — not a complete map, but a compass bearing.
+
+> **The outline is not a ground-truth map of the world.**
+> It is an internal directional representation of unresolved deficits
+> that is sufficient for seed calibration and expansion guidance.
 
 ### Two-Layer Rule Structure
 
@@ -731,7 +805,8 @@ Problems are layered by dependency. Layer 1 must be solved for the theory to be 
 ### Layer 1 — Core: Theory Cannot Be Operationalized Without These
 
 ```
-1. Resolution measurement  ✓ RESOLVED (operational proxy)
+1. Resolution measurement  PARTIALLY RESOLVED (operational proxy)
+   This proxy measures boundary performance, not full structural resolution.
    Resolution-proxy = 1 - (Type1 loss + Type2 loss) / total input
    Type1 = False Restoration (healthy mistaken for contaminated)
    Type2 = Missed Contamination (contaminated mistaken for healthy)
